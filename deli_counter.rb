@@ -1,8 +1,8 @@
-def line(array) # this was the one I figured out
-  if array.length > 0
+def line(Katz_deli)
+  if Katz_deli.length > 0
     new_array = []
     counter = 1 
-    array.each do |name|
+    Katz_deli.each do |name|
       new_array.push("#{counter}. #{name}")
       counter += 1 
     end 
