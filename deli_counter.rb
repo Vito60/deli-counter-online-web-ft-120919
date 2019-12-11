@@ -6,7 +6,7 @@ if katz_deli.length > 0
     new_array.push("#{counter}. #{name}")
     counter += 1 
   end
-  puts "The line is currently: "
+  puts "The line is currently: #{new_array.join(" ")"
 else 
   puts "The line is currently empty."
 end
