@@ -9,7 +9,7 @@ def line(katz_deli)
     katz_deli.each do |name|
       new_array.push(#{counter}. #{name})
     counter += 1 
-    puts 
+    puts "The line is currently: 
   end
 end
 
