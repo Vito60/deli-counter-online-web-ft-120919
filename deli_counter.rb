@@ -6,7 +6,8 @@ if katz_deli.length > 0
     new_array.push("#{counter}. #{name}")
     counter += 1 
   end
-  esle 
+else 
+  puts "The line is currently empty."
 end
 
   
